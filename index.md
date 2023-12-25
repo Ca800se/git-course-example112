@@ -106,8 +106,7 @@
 			<td><?= $item[3] ?></td>
 			<td><?= $item[4] ?></td>
 			<td><?= $item[5] ?></td>
-			<td><?= $item[5] ?></td>
-			<td><?= $item[5] ?></td>
+			<td><?= $item[6] ?></td>
 			<td><a href="update.php?id=<?= $item[0] ?>">Обновить</a></td>
 			<td><a href="vendor/delete.php?id=<?= $item[0] ?>">Удалить</a></td>
 			</tr>
@@ -123,8 +122,6 @@
 			<input type="date" name="date">
 			<p class="postavka">Поставщик</p>
 			<input type="text" name="postavka">
-			<p class="srok">Срок доставки</p>
-			<input type="text" name="srok">
 			<button type="submit">Добавить</button>
 		</form>
 	</body>
