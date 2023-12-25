@@ -106,7 +106,6 @@
 			<td><?= $item[3] ?></td>
 			<td><?= $item[4] ?></td>
 			<td><?= $item[5] ?></td>
-			<td><?= $item[6] ?></td>
 			<td><a href="update.php?id=<?= $item[0] ?>">Обновить</a></td>
 			<td><a href="vendor/delete.php?id=<?= $item[0] ?>">Удалить</a></td>
 			</tr>
@@ -120,8 +119,6 @@
 			<input type="numeric" name="cabinet"></textarea>
 			<p class="date">Дата поставки техники</p>
 			<input type="date" name="date">
-			<p class="postavka">Поставщик</p>
-			<input type="text" name="postavka">
 			<button type="submit">Добавить</button>
 		</form>
 	</body>
